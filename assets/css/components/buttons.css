@@ -1,0 +1,48 @@
+/* Links naar andere pagina's */
+
+.button {
+    font-family: var(--t-secondary);
+    background-color: var(--c-tertiary);
+    border: 1px solid #9E4F00;
+    border-radius: 6px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.fa-chevron-right {
+    color: var(--c-quaternary);
+    text-shadow: 0.1px 0.1px 1px #000;
+}
+
+.button:active {
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .3);
+}
+
+.button:hover {
+    color: var(--c-quaternary);
+}
+
+/* Inschrijven */
+
+button {
+    font-size: 36px;
+    width: 18%;
+    background-color: var(--c-quaternary);
+    border: 1px solid #00B5EB;
+    border-radius: 35px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    padding: 5px;
+    font-size: 40px;
+}
+
+button:active {
+    padding: 10px;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .3);
+}

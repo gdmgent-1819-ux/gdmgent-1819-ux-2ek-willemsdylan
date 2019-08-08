@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,15 +8,68 @@
     <title>Styleguide</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <p id="c-main" class="colors">#00B5EB - main color</p>
+        <p id="c-secondary" class="colors">#9E4F00 - secondary color</p>
+        <p id="c-tertiary" class="colors">#EB9C4D - tertiary color</p>
+        <p id="c-quaternary" class="colors">#19C9FF - quaternary color</p>
+        
+        <h2 class="sg-subtitle">Typografie</h2>
+        <p id="t-main">Coming Soon - main</p>
+        <p id="t-secondary">Open Sans - secondary</p>
+        
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <a href="#ligging" class="btn">Bekijk de ligging <i class="fas fa-chevron-right"></i></a>
+        <a href="#nieuws" class="btn">Nieuws <i class="fas fa-chevron-right"></i></a>
+        <a href="#contact" class="btn">Contact <i class="fas fa-chevron-right"></i></a>
+        <a href="#traject" class="btn">Bekijk traject <i class="fas fa-chevron-right"></i></a>
+        <a href="#back" class="btn"><i class="fas fa-chevron-right fa-rotate-180"></i> Ga terug</a>
+        <button class="btninschr">SCHRIJF UW KIND NU IN!</button>
+        
+        <h2 class="sg-subtitle">Formulier</h2>
+        <form action="">
+            <h1>Contact</h1>
+            <p>Vragen? Vul het onderstaande formulier in en wij nemen
+                zo snel mogelijk contact met u op!</p>
+            <div class="form-row">
+                <label for="name">Naam</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-row">
+                <label for="firstname">Voornaam</label>
+                <input type="text" name="firstname">
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-row">
+                <label for="message">Boodschap</label>
+                <input type="text" name="message" id="message">
+            </div>
+        </form>
+
+        <a href="#send" class="btn send">Verzenden</a>
+        
+        <h2 class="sg-subtitle">Componenten</h2>
+        <p>Home Icon <i class="fas fa-home"></i></p>
+        <p>Arrow Right <i class="fas fa-angle-right"></i></p>
+        <p>Externe link <i class="fas fa-external-link-alt"></i></p>
+        <p>Bus <i class="fas fa-bus"></i></p>
+        <p>Auto <i class="fas fa-car"></i></p>
+        <p>Fiets <i class="fas fa-bicycle"></i></p>
+        <p>Map Marker <i class="fas fa-map-marker-alt"></i></p>
+        <p>Email <i class="fas fa-at"></i></p>
+        <p>Phone <i class="fas fa-phone"></i></p>
+    </div>
 </body>
+
 </html>

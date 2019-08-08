@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans&display=swap');
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +15,141 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ---------- KLEUREN ---------- */
+
+.container>p#c-main {
+    background-color: #00B5EB;
+}
+
+.container>p#c-secondary {
+    background-color: #9E4F00;
+}
+
+.container>p#c-tertiary {
+    background-color: #EB9C4D;
+}
+
+.container>p#c-quaternary {
+    background-color: #19C9FF;
+}
+
+.colors {
+    font-family: 'Coming Soon', cursive;
+    margin-bottom: 10px;
+}
+
+/* ---------- TYPOGRAFIE ---------- */
+
+p#t-main {
+    font-family: 'Coming Soon';
+}
+
+p#t-secondary {
+    font-family: 'Open Sans';
+}
+
+/* ---------- KNOPPEN ---------- */
+
+.btn {
+    background-color: var(--c-tertiary);
+    border: 1px solid #9E4F00;
+    border-radius: 6px;
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.btninschr {
+    display: inline-block;
+    margin-top: 20px;
+    width: 22%;
+}
+
+a:active {
+    padding: 10px;
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, .3);
+}
+
+/* ---------- FORMULIER ---------- */
+
+form h1 {
+    color: var(--c-primary);
+    font-family: var(--t-primary);
+    font-weight: 500;
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+form p {
+    width: 40%;
+    padding-bottom: 15px;
+}
+
+.form-row {
+    padding: 5px 0;
+    display: flex;
+    width: 30%;
+}
+
+label {
+    font-family: 'Coming Soon';
+    color: var(--c-tertiary);
+    padding-right: 10px;
+    width: inherit;
+}
+
+input {
+    border: 1px solid #EB9C4D;
+    border-radius: 5px;
+}
+
+input#message {
+    height: 40px;
+}
+
+.send {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    width: 15.6%;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+/* ---------- COMPONENTEN ---------- */
+
+.fa-home,
+.fa-angle-right,
+.fa-external-link-alt,
+.fa-bus,
+.fa-car,
+.fa-bicycle,
+.fa-map-marker-alt,
+.fa-at,
+.fa-phone {
+    font-size: 20px;
+}
+
+
+.fa-angle-right {
+    color: var(--c-quaternary);
+    text-shadow: 0.1px 0.1px 1px #000;
+}
+
+.fa-external-link-alt {
+    color: var(--c-quaternary);
+}
+
+.fa-bus,
+.fa-car,
+.fa-bicycle {
+    color: var(--c-tertiary);
+}
+
+.fa-phone {
+    transform: scale(-1, 1);
 }

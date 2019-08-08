@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Open+Sans&display=swap');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsl(194, 100%, 46%);
+  --c-secondary: hsl(30, 100%, 31%);
+  --c-tertiary: hsl(30, 80%, 61%);
+  --c-quaternary: hsl(194, 100%, 55%);
+  --c-quinary: hsl(194, 100%, 31%);
 
   /**
    * Layout
@@ -13,8 +18,8 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
+  --t-primary: 'Coming Soon', sans-serif;
+  --t-secondary: 'Open Sans', sans-serif;
   --t-tertiary: monospace;
 
   --t-headline: var(--t-primary);
@@ -22,5 +27,3 @@
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
 }
-
-
